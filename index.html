@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>GoCorona</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Manrope:500,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500,600,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:500,600,"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__title">#todo</div>
+      </div>
+    </header>
+    <main class="page">
+      <div class="todo">
+        <div class="todo__container">
+          <div class="todo__menu">
+            <ul class="todo__list">
+              <li class="todo__item item-01 item-active">All</li>
+              <li class="todo__item item-02">Active</li>
+              <li class="todo__item item-03">Completed</li>
+            </ul>
+          </div>
+          <div class="todo__form">
+            <form action="" class="todo__box">
+              <input
+                placeholder="add details"
+                class="todo__input"
+                name=""
+                id=""
+              ></input>
+              <button class="todo__btn">Add</button>
+            </form>
+          </div>
+          <div class="todo__taskbox taskbox-all" id="taskbox-all">
+            <!-- <div class="todo__task task-all">
+              <div class="todo__check"></div>
+              <div class="todo__text">
+                Do coding challenges
+              </div>
+            </div> -->
+          </div>
+          <div class="todo__taskbox hidden-box taskbox-active" id="taskbox-active">
+            <!-- <div class="todo__task task-active">
+              <div class="todo__check"></div>
+              <div class="todo__text">
+                Do coding challenges
+              </div>
+            </div> -->
+          </div>
+          <div class="todo__taskbox hidden-box taskbox-completed" id="taskbox-completed">
+            <!-- <div class="todo__task task-completed">
+              <div class="todo__check"></div>
+              <div class="todo__text">
+                Do coding challenges
+              </div>
+              <div class="todo__trash">
+                <img class='trash__img' src="img/trashcan_02.png" alt="">
+              </div>
+            </div> -->
+            <button class="todo__delete">delete all</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container"></div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

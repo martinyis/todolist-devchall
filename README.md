@@ -1,59 +1,19 @@
-# todolist-devchall
-<!-- Please update value in the {}  -->
+## Project Name & Pitch
 
-<h1 align="center">{Your project name}</h1>
+TODO List App
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+An application for adding notes and sorting them into specific containers
 
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5">
-      Challenge
-    </a>
-  </h3>
-</div>
+## Project Status
+Completed 80%(Need to add feature to store todos into local storage)
+ 
 
-<!-- TABLE OF CONTENTS -->
+## Reflection
 
-## Table of Contents
+The project was created for the purpose of training and practice.
+The main goal was to allow the user to add his tasks to the to-do list and the ability to edit them and mark them for deletion.
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+The main problem was to add tasks to all three containers simultaneously and so that they were synchronized with each other. I came up with a way which is not very optimal, but it works. The way was to add to the newly generated job class with random name consisting of random numbers. Thus, the task that the user adds to the page was uniquely marked
 
-<!-- OVERVIEW -->
-
-## Overview
-Thats a simple todo-list app with a simple features
-
-### Built With
-Built with Vanilla Js Html Css
-
-## Features
---Changing active containers
---Adding notes 
---Checking done notes
---Deleting notes
-
-
-```
-
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- GitHub [@martinyis](https://{github.com/martinyis})
+Fro this project I used publci design from Figma and structure language such a HTML. For styles I used Sass compiler and for functional side of a project I used JS
 
